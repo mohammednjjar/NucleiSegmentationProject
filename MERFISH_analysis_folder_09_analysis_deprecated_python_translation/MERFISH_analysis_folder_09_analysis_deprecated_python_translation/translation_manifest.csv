@@ -1,0 +1,8 @@
+folder,matlab_file,python_file,purpose_use,status
+analysis/deprecated,AlignFiducials.m,python_translation/analysis/deprecated/AlignFiducials.py,Align fiducial molecule lists across hybridization rounds and attach transforms/error metadata,translated
+analysis/deprecated,AnalyzeMERFISH.m,python_translation/analysis/deprecated/AnalyzeMERFISH.py,"Legacy end-to-end MERFISH analysis orchestration: discover files, load molecule lists, align fiducials, create/decode words, and collect outputs",translated
+analysis/deprecated,CreateWords.m,python_translation/analysis/deprecated/CreateWords.py,Construct MERFISH word structures from aligned molecule lists using common-centroid or per-localization logic,translated
+analysis/deprecated,DecodeWords.m,python_translation/analysis/deprecated/DecodeWords.py,Decode measured codewords using exact and correctable codebook maps,translated
+analysis/deprecated,StripWords.m,python_translation/analysis/deprecated/StripWords.py,Reduce word structures to selected output fields,translated
+analysis/deprecated,TransformImageData.m,python_translation/analysis/deprecated/TransformImageData.py,Apply fiducial inverse transforms to image localizations and copy fiducial metadata,translated
+analysis/deprecated,Warp2BestPair.m,python_translation/analysis/deprecated/Warp2BestPair.py,Compute fiducial alignment transform from the most mutually consistent bead-pair shifts,translated
