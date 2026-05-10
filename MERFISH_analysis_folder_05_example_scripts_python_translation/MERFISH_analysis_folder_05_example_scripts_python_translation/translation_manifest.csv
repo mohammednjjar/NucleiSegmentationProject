@@ -1,0 +1,7 @@
+matlab_file,python_file,purpose,use
+example_scripts/analysis_script.m,example_scripts/analysis_script.py,End-to-end MERFISH demo analysis script,Sets analysis parameters runs AnalyzeMERFISH generates reports and saves decoded outputs
+example_scripts/code_construction_script.m,example_scripts/code_construction_script.py,Barcode construction demonstration,Constructs MHD4 extended-Hamming and MHD2 constant-weight barcode sets and checks Hamming distance
+example_scripts/library_design_example.m,example_scripts/library_design_example.py,MERFISH probe-library design demonstration,Builds transcriptome/off-target/specificity tables designs target regions and assembles oligo/primer FASTA files
+example_scripts/decoding/runMERFISH.m,example_scripts/decoding/runMERFISH.py,Cluster decoding run script,Defines experiment paths parameters and launches MERFISH scheduler with analysis-control string
+example_scripts/decoding/startup.m,example_scripts/decoding/startup.py,Decoding environment startup script,Configures STORM/MERFISH paths environment variables and Python import paths
+example_scripts/deprecated/ExampleLibraryConstruction_140genes_script.m,example_scripts/deprecated/ExampleLibraryConstruction_140genes_script.py,Deprecated OligoArray library-construction example,Builds BLAST database launches OligoArray parses probes and assembles MERFISH library

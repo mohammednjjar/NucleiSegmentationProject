@@ -1,0 +1,6 @@
+Scan for unresolved scaffold markers in Python files
+matlab_stmt: 0
+placeholder: 0
+TODO: 0
+NotImplementedError: 0
+pass_statement: 0
