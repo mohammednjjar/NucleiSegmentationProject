@@ -1,0 +1,3 @@
+Python compile test: PASSED
+Folder: probe_construction/
+Files compiled: OTMap.py, OTMap2.py, OTTable.py, PrimerDesigner.py, TRDesigner.py, TargetRegions.py, Transcriptome.py, utils.py, __init__.py

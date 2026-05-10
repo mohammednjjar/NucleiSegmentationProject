@@ -1,0 +1,8 @@
+MATLAB file,Python file,Purpose/use
+probe_construction/OTMap.m,probe_construction/OTMap.py,Array-backed key/value map for off-target seed penalties; accumulates duplicate keys and returns values by key.
+probe_construction/OTMap2.m,probe_construction/OTMap2.py,Dictionary-backed key/value map for faster off-target lookup after table construction.
+probe_construction/OTTable.m,probe_construction/OTTable.py,Builds n-mer off-target penalty tables from transcript sequences and calculates penalties for probe/primer sequences.
+probe_construction/PrimerDesigner.m,probe_construction/PrimerDesigner.py,Generates and filters orthogonal primers using GC content Tm off-target penalties forbidden sequences and homology filters.
+probe_construction/TRDesigner.m,probe_construction/TRDesigner.py,Designs target regions using validity GC Tm off-target penalty specificity isoform specificity and tiling rules.
+probe_construction/TargetRegions.m,probe_construction/TargetRegions.py,Stores designed target regions and writes/saves them with sequence position GC Tm specificity and penalty metadata.
+probe_construction/Transcriptome.m,probe_construction/Transcriptome.py,Loads and indexes transcriptome sequences IDs gene names abundances CDS coordinates and provides lookup/slicing utilities.
