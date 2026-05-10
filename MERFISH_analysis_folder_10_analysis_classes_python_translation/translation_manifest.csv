@@ -1,0 +1,7 @@
+matlab_file,python_file,purpose_use
+analysis/classes/FoundFeature.m,analysis/classes/FoundFeature.py,"Segmented feature/cell container; boundaries, morphology, overlap, masks, table export"
+analysis/classes/MERFISHDecoder.m,analysis/classes/MERFISHDecoder.py,"Main MERFISH dataset controller; metadata, preprocessing, decoding, segmentation, reporting, save/load"
+analysis/classes/Morpheus.m,analysis/classes/Morpheus.py,Email/status notification helper for jobs/job arrays
+analysis/classes/SLURMJob.m,analysis/classes/SLURMJob.py,"Single SLURM job wrapper; script creation, submission, status, cancel/requeue"
+analysis/classes/SLURMJobArray.m,analysis/classes/SLURMJobArray.py,Coordinates multiple SLURMJob objects and tracks array status
+analysis/classes/Vrykolakas.m,analysis/classes/Vrykolakas.py,Timer that prints keep-alive messages for shell/SSH sessions
