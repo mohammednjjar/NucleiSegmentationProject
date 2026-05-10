@@ -1,0 +1,6 @@
+Scanned Python translation files for unresolved placeholder markers.
+matlab_stmt: 0
+placeholder: 0
+TODO: 0
+NotImplementedError: 0
+empty pass stubs: 0
