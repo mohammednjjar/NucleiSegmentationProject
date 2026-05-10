@@ -1,0 +1,17 @@
+folder,matlab_file,python_file,purpose_use,status
+analysis/SLURM_scripts,CalculateDoubletScore.m,python_translation/analysis/SLURM_scripts/CalculateDoubletScore.py,Calculate per-feature barcode counts center-of-mass and variance tables used for doublet/segmentation-error scoring,translated
+analysis/SLURM_scripts,CalculateNumbers.m,python_translation/analysis/SLURM_scripts/CalculateNumbers.py,Calculate barcode counts per feature and generate feature-count report,translated
+analysis/SLURM_scripts,CombineBoundaries.m,python_translation/analysis/SLURM_scripts/CombineBoundaries.py,Combine segmentation boundaries/features after FOV-level segmentation,translated
+analysis/SLURM_scripts,CombineFoundFeatures.m,python_translation/analysis/SLURM_scripts/CombineFoundFeatures.py,Combine found features generate report and export feature CSV,translated
+analysis/SLURM_scripts,CombineSum.m,python_translation/analysis/SLURM_scripts/CombineSum.py,Combine raw-signal summation outputs and generate summation report,translated
+analysis/SLURM_scripts,DecodeFOV.m,python_translation/analysis/SLURM_scripts/DecodeFOV.py,Decode one MERFISH field of view,translated
+analysis/SLURM_scripts,ExportBarcodeMetadata.m,python_translation/analysis/SLURM_scripts/ExportBarcodeMetadata.py,Export barcode metadata and compute doublet-score metadata tables,translated
+analysis/SLURM_scripts,LowResMosaic.m,python_translation/analysis/SLURM_scripts/LowResMosaic.py,Generate low-resolution MERFISH mosaic outputs,translated
+analysis/SLURM_scripts,MERFISHScheduler.m,python_translation/analysis/SLURM_scripts/MERFISHScheduler.py,Create and coordinate SLURM workflow scripts for full MERFISH analysis,translated
+analysis/SLURM_scripts,Optimize.m,python_translation/analysis/SLURM_scripts/Optimize.py,Generate warp report initialize scale factors and optimize decoding scale factors,translated
+analysis/SLURM_scripts,ParseFOV.m,python_translation/analysis/SLURM_scripts/ParseFOV.py,Parse decoded barcodes into feature boundaries for one FOV,translated
+analysis/SLURM_scripts,Performance.m,python_translation/analysis/SLURM_scripts/Performance.py,Validate barcode files and run MERFISH performance metrics,translated
+analysis/SLURM_scripts,ProcessFOV.m,python_translation/analysis/SLURM_scripts/ProcessFOV.py,Warp and preprocess one MERFISH field of view,translated
+analysis/SLURM_scripts,Segment.m,python_translation/analysis/SLURM_scripts/Segment.py,Segment all fields of view,translated
+analysis/SLURM_scripts,SegmentFOV.m,python_translation/analysis/SLURM_scripts/SegmentFOV.py,Segment one MERFISH field of view,translated
+analysis/SLURM_scripts,SumFOV.m,python_translation/analysis/SLURM_scripts/SumFOV.py,Sum raw signal inside features for one MERFISH field of view,translated
