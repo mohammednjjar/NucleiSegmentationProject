@@ -1,0 +1,19 @@
+....                                                                     [100%]
+=============================== warnings summary ===============================
+tests/test_deprecated_folder.py::test_genprobe_and_reports
+  /mnt/data/MERFISH_analysis_folder_06_deprecated_python_translation/deprecated/reports/GenerateBitFlipReport.py:51: RuntimeWarning: Mean of empty slice
+    hyb_prob = np.nanmean(probs, axis=0)
+
+tests/test_deprecated_folder.py::test_genprobe_and_reports
+  /opt/pyvenv/lib/python3.13/site-packages/numpy/lib/_nanfunctions_impl.py:2015: RuntimeWarning: Degrees of freedom <= 0 for slice.
+    var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+
+tests/test_deprecated_folder.py::test_genprobe_and_reports
+  /mnt/data/MERFISH_analysis_folder_06_deprecated_python_translation/deprecated/reports/GenerateBitFlipReport.py:54: RuntimeWarning: Degrees of freedom <= 0 for slice.
+    scaled_err = np.sqrt(np.nanvar(probs, axis=0)) / max(np.sqrt(len(weight_vec)), 1)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+4 passed, 3 warnings in 4.20s
+
+
+returncode=0
