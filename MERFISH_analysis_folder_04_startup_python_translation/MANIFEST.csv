@@ -1,0 +1,2 @@
+matlab_file,python_file,purpose,status
+startup/merfish_startup.m,startup/merfish_startup.py,Configure MERFISH_analysis and dependency paths/environment variables,Fully translated to Python path/environment setup logic
