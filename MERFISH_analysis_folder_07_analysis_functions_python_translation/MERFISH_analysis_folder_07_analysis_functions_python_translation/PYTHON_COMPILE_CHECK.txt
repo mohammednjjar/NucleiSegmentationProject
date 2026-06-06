@@ -1,2 +1,0 @@
-Command: python -m py_compile $(find python_translation -name '*.py')
-Result: PASSED

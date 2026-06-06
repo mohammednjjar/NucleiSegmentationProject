@@ -1,3 +1,0 @@
-Command: PYTHONPATH=python_translation python -m pytest -q tests
-Result: 3 passed
-Warnings: 0
