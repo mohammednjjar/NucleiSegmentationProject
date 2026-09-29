@@ -1,6 +1,6 @@
-# Supervised vs. Unsupervised Cell-Type Recovery on the Moffitt (2018) MERFISH Hypothalamic Preoptic Dataset
-
-**A Feature-Contribution Benchmark**
+# SUPERVISED VS. UNSUPERVISED CELL-TYPE RECOVERY ON THE
+MOFFITT (2018) MERFISH HYPOTHALAMIC PREOPTIC DATASET:
+A FEATURE-CONTRIBUTION BENCHMARK
 
 M.Sc. Thesis — Computer Engineering, Bahçeşehir University
 Author: Mohammed Abdulwahhab M Hamdi Al Najjar
